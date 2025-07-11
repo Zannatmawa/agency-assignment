@@ -42,8 +42,9 @@ body {
 }
 
 .button:hover {
-   background: #26cc8a;
-     transform: scale(1.05);
+    background: #26cc8a;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .text-div {
@@ -181,6 +182,7 @@ body {
     margin-top: 0;
     font-weight: normal;
     color: #404041;
+    margin-bottom: 0;
 }
 
 .user-review {
@@ -190,7 +192,6 @@ body {
 
 .user-review div {
     margin-bottom: 20px;
-
 }
 
 .user-review img {
