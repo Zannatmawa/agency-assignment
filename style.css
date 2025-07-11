@@ -61,29 +61,30 @@ body {
 
 /* header section ends */
 /* main section start */
-.middle-div {
+.action-div {
     height: 400px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-family: 'Raleway';
+    margin: 100px 0px;
 }
 
-.middle-div h2 {
+.action-div h2 {
     font-size: 30px;
     font-weight: bold;
 }
 
-.middle-div h3 {
+.action-div h3 {
     font-size: 18px;
     color: gray;
 }
 
-.middle-div button {
+.action-div button {
     width: 150px;
 }
 
-.middle-div img {
+.action-div img {
     border-radius: 10px;
     width: 300px;
 }
@@ -154,17 +155,14 @@ body {
 }
 
 .reviews {
-    margin: 10px;
+    margin: 20px;
     width: 300px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     background: rgb(255, 255, 255);
-}
-
-.reviews .desc-div {
-    margin: 0;
+    font-family: 'Raleway';
 }
 
 .reviews .desc-div h3 {
@@ -174,6 +172,8 @@ body {
 
 .reviews .desc-div h5 {
     margin-top: 0;
+    font-weight: normal;
+    color: #404041;
 }
 
 .user-review {
@@ -183,6 +183,7 @@ body {
 
 .user-review div {
     margin-bottom: 20px;
+
 }
 
 .user-review img {
@@ -198,6 +199,7 @@ body {
 }
 
 .user-review span {
+    font-size: 12px;
     color: rgb(211, 200, 200);
 }
 
@@ -205,14 +207,14 @@ body {
 .content {
     margin: auto;
     border-radius: 10px;
-    width: 80%;
+    width: 70%;
     background: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 .content-text {
@@ -244,36 +246,42 @@ body {
     padding: 20px;
     height: 400px;
     margin: auto;
+    margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    font-family: 'Raleway';
 }
 
 .form h2 {
-    font-size: 55px;
+    font-size: 80px;
     font-weight: bolder;
 }
-
+.form label{
+    margin: 20px 0;
+}
 .form input,
 textarea {
     margin-top: 20px;
     margin-bottom: 10px;
-    width: 300px;
+    width: 400px;
     height: 40px;
-    border: 1px solid gray;
+    border: 1px solid rgb(167, 167, 167);
     border-radius: 10px;
 }
-
+.form textarea{
+    resize: none;
+     height: 110px;
+}
 .form button {
     margin-top: 20px;
-    width: 300px;
+    width: 400px;
 }
-
 /* form ends*/
 /* main section ends */
 /* footer section start */
 .footer-section {
-        font-family: 'Raleway';
+    font-family: 'Raleway';
     height: 400px;
     display: flex;
     flex-direction: column;
