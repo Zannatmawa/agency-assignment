@@ -31,6 +31,7 @@ body {
 }
 
 .button {
+    cursor: pointer;
     background: #4E47FF;
     color: white;
     border: none;
@@ -38,6 +39,11 @@ body {
     width: 100px;
     height: 40px;
     font-weight: bold;
+}
+
+.button:hover {
+   background: #26cc8a;
+     transform: scale(1.05);
 }
 
 .text-div {
@@ -60,7 +66,7 @@ body {
 }
 
 /* header section ends */
-/* main section start */
+/* action section start */
 .action-div {
     height: 400px;
     display: flex;
@@ -89,6 +95,7 @@ body {
     width: 300px;
 }
 
+/* action div ends */
 .user-section {
     width: 70%;
     border-radius: 10px;
@@ -144,7 +151,7 @@ body {
     align-items: center;
 }
 
-/*  */
+/* feedback */
 .all-reviews {
     display: flex;
     flex-direction: row;
@@ -239,7 +246,6 @@ body {
     border-radius: 30px;
 }
 
-/* content */
 /* form starts */
 .form {
     width: 70%;
@@ -257,9 +263,11 @@ body {
     font-size: 80px;
     font-weight: bolder;
 }
-.form label{
+
+.form label {
     margin: 20px 0;
 }
+
 .form input,
 textarea {
     margin-top: 20px;
@@ -269,14 +277,17 @@ textarea {
     border: 1px solid rgb(167, 167, 167);
     border-radius: 10px;
 }
-.form textarea{
+
+.form textarea {
     resize: none;
-     height: 110px;
+    height: 110px;
 }
+
 .form button {
     margin-top: 20px;
     width: 400px;
 }
+
 /* form ends*/
 /* main section ends */
 /* footer section start */
@@ -314,6 +325,10 @@ textarea {
 
 .footer-section ul li {
     list-style: none;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
     color: gray;
 }
 
